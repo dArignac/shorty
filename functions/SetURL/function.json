@@ -1,0 +1,35 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "name": "entry",
+      "type": "table",
+      "tableName": "urls",
+      "connection": "StorageAccount",
+      "direction": "in",
+      "filter": "(URL eq '{url}')",
+      "take": "1"
+    },
+    {
+      "name": "result",
+      "type": "table",
+      "tableName": "urls",
+      "partitionKey": "urls",
+      "connection": "StorageAccount",
+      "direction": "out"
+    },
+    {
+      "authLevel": "function",
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "req",
+      "methods": ["post"],
+      "route": "urls"
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "$return"
+    }
+  ]
+}

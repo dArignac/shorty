@@ -1,0 +1,16 @@
+{
+  "name": "urlshortener",
+  "version": "1.0.0",
+  "scripts": {
+    "swa": "swa start http://localhost:3000 --api=http://localhost:7071 --swa-config-location=./shorty",
+    "swa:prod": "swa start ./shorty/build --api=\"./functions\" --swa-config-location=./shorty --port 4281"
+  },
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@azure/static-web-apps-cli": "^0.6.0",
+    "azure-functions-core-tools": "^3.0.3568"
+  },
+  "volta": {
+    "node": "14.17.0"
+  }
+}

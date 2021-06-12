@@ -1,0 +1,12 @@
+{
+  "editor.formatOnSave": true,
+  "azureFunctions.deploySubpath": "functions",
+  "azureFunctions.scmDoBuildDuringDeployment": true,
+  "azureFunctions.pythonVenv": ".venv",
+  "azureFunctions.projectLanguage": "Python",
+  "azureFunctions.projectRuntime": "~3",
+  "debug.internalConsoleOptions": "neverOpen",
+  "staticWebApps.appSubpath": "/shorty",
+  "staticWebApps.apiSubpath": "/functions",
+  "staticWebApps.outputSubpath": "build"
+}

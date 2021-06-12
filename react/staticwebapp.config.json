@@ -1,0 +1,24 @@
+{
+  "routes": [
+    {
+      "route": "/"
+    },
+    {
+      "route": "/login",
+      "redirect": "/.auth/login/github"
+    },
+    {
+      "route": "/logout",
+      "redirect": "/.auth/logout",
+      "allowedRoles": ["authenticated"]
+    },
+    {
+      "route": "/api/urls",
+      "allowedRoles": ["authenticated"]
+    }
+  ],
+  "navigationFallback": {
+    "rewrite": "/index.html",
+    "exclude": ["*.{js,map,css,png,ico}", "/static/*"]
+  }
+}
