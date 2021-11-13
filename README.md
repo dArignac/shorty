@@ -28,7 +28,8 @@ Steps to execute in chronological order:
   - if you keep the automatically generated domain of Azure (something like https://<some-identifier>.azurestaticapps.net) then set this as the value
   - if you'll use your own domain, then set it as value and within the Azure portal create a custom domain for the site in "Custom Domains" at the Azure Static Web App
     )
-- adjust the generated workflows file in `.github/workflows/` that will deploy to your Azure Static Web App and ensure that the step `Build and deploy` looks like the following. Note that the secrect for the API token will have a different name based on the generated domain name of your app. You need to adjust `app_location`, `api_location`, `output_location` and `env` appropriately:
+- adjust the generated workflows file in `.github/workflows/` that will deploy to your Azure Static Web App and ensure that the step `Build and deploy` looks like the following. Note that the secret for the API token will have a different name based on the generated domain name of your app. You need to adjust `app_location`, `api_location`, `output_location` and `env` appropriately:
+
 ```
       - name: Build And Deploy
         id: builddeploy
@@ -46,5 +47,6 @@ Steps to execute in chronological order:
         env:
           REACT_APP_DOMAIN: ${{ secrets.REACT_APP_DOMAIN }}
 ```
+
 - setup the configuration for Azure Functions to tie the Azure Storage account, therefore see [here](DEVELOPMENT.md#setup-for-deployment)
 - push the changes - it should deploy and work (fingers crossed :-))
