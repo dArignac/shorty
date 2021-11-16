@@ -7,7 +7,7 @@
   },
   "license": "UNLICENSED",
   "devDependencies": {
-    "@azure/static-web-apps-cli": "^0.8.0",
+    "@azure/static-web-apps-cli": "^0.8.1",
     "azure-functions-core-tools": "^3.0.3904"
   },
   "volta": {
