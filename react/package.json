@@ -9,8 +9,8 @@
     "eject": "react-scripts eject"
   },
   "dependencies": {
-    "axios": "^0.25.0",
-    "cirrus-ui": "^0.6.2",
+    "axios": "^0.26.1",
+    "cirrus-ui": "^0.7.0",
     "node-sass": "^7.0.1",
     "pullstate": "^1.22.1",
     "qrcode": "^1.4.4",
@@ -50,7 +50,7 @@
     ]
   },
   "volta": {
-    "node": "17.5.0"
+    "node": "16.14.2"
   },
   "proxy": "http://localhost:7071/"
 }
