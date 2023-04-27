@@ -12,6 +12,6 @@
     "azure-functions-core-tools": "^4.0.4544"
   },
   "volta": {
-    "node": "18.12.1"
+    "node": "18.16.0"
   }
 }
