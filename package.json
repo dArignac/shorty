@@ -10,8 +10,5 @@
   "devDependencies": {
     "@azure/static-web-apps-cli": "^1.0.1",
     "azure-functions-core-tools": "^4.0.4544"
-  },
-  "volta": {
-    "node": "18.16.0"
   }
 }
