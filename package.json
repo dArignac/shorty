@@ -2,8 +2,7 @@
   "name": "urlshortener",
   "version": "1.0.0",
   "scripts": {
-    "swa:old": "swa start http://localhost:3000 --api-port=7071 --swa-config-location=./react",
-    "swa": "swa start http://localhost:3000 --api-location=./functions --swa-config-location=./react",
+    "swa": "swa start",
     "swa:prod": "swa start ./react/build --api-location=\"./functions\" --swa-config-location=./react --port 4281"
   },
   "license": "UNLICENSED",
