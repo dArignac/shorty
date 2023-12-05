@@ -19,9 +19,8 @@ This gives some insights into development, mostly for myself to remember the inf
 }
 ```
 
-- React (folder `react`): install packages and run the app with `npm run start`
 - [Install Azure Functions SDK](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local?tabs=linux%2Ccsharp%2Cportal%2Cbash%2Ckeda&source=docs#install-the-azure-functions-core-tools)
-- Bind everything together with Static Web Apps CLI (see below): `npm run swa` from root folder (this also starts the functions emulator)
+- Run everything with Static Web Apps CLI (see below): `npm run swa` from root folder (this also starts the functions emulator and react)
 - open http://localhost:4280
 
 ## Miscellaneous
