@@ -56,7 +56,7 @@ Uses the [Django validator](https://github.com/django/django/blob/main/django/co
 
 Emulates the Static Web App with authentication: https://github.com/azure/static-web-apps-cli#readme
 
-Use `npm run swa` to run in dev mode - start react and functions beforehand - browse http://localhost:4280
+Use `npm run swa` to run in dev mode and browse http://localhost:4280
 Use `npm run swa:prod` to run in prod mode - build react beforehand and _do not start functions_ - browse http://localhost:4281
 
 ## Azure Functions (in Azure Static Web App)

@@ -19,7 +19,7 @@
     "react-scripts": "5.0.1",
     "typescript": "^4.4.4",
     "web-vitals": "^3.5.0",
-    "wouter": "^2.7.5"
+    "wouter": "^3.3.5"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^6.1.5",
