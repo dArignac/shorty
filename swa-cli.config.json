@@ -6,7 +6,7 @@
       "apiLocation": "functions",
       "outputLocation": "build",
       "apiLanguage": "python",
-      "apiVersion": "3.8",
+      "apiVersion": "3.11 ",
       "appBuildCommand": "npm run build",
       "run": "npm start",
       "appDevserverUrl": "http://localhost:3000"
