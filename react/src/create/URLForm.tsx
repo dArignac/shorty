@@ -32,7 +32,7 @@ export function URLForm() {
   return (
     <>
       <div className="row">
-        <div className="col-6 p-1">
+        <div className="md:col-6 p-1">
           <div className="r">Enter a URL:</div>
           <div className="form-group">
             <input

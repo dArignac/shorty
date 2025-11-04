@@ -12,7 +12,7 @@ export function Header() {
       <div className="header-brand">
         <div className="nav-item no-hover">
           <Link href="/">
-            <h6 className="title">Shorty</h6>
+            <h6 className="text-lg font-semibold">Shorty</h6>
           </Link>
         </div>
         <div

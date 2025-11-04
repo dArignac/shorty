@@ -25,7 +25,7 @@ function App() {
   return (
     <>
       <Header />
-      <div className="w-90 mt-6">
+      <div className="w-90p mt-6">
         <Switch>
           <Route path="/" component={isLoggedIn ? URLForm : LoginHint} />
           <Route path="/:id">
@@ -38,7 +38,7 @@ function App() {
           </Route>
           <Route>
             <div className="row">
-              <div className="col-12 p-1">Not found.</div>
+              <div className="md:col-12 p-1">Not found.</div>
             </div>
           </Route>
         </Switch>
