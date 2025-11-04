@@ -22,9 +22,6 @@
     "wouter": "^3.3.5"
   },
   "devDependencies": {
-    "@testing-library/jest-dom": "^6.1.5",
-    "@testing-library/react": "^14.1.2",
-    "@testing-library/user-event": "^14.2.0",
     "@types/jest": "^29.0.0",
     "@types/node": "^18.19.2",
     "@types/qrcode": "^1.4.0",
