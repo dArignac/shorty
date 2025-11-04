@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "swa": "swa start",
-    "swa:prod": "swa start ./react/build --api-location=\"./functions\" --swa-config-location=./react --port 4281"
+    "swa:prod": "swa start ./react/build --api-location=\"./functions\" --swa-config-location=./react --port 4281",
+    "swa:deploy": "swa deploy ./react/build --api-location=./functions --api-language python --api-version 3.10"
   },
   "license": "UNLICENSED",
   "devDependencies": {
