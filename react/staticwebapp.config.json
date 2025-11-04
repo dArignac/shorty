@@ -20,5 +20,8 @@
   "navigationFallback": {
     "rewrite": "/index.html",
     "exclude": ["*.{js,map,css,png,ico}", "/static/*"]
+  },
+  "platform": {
+    "apiRuntime": "python:3.10"
   }
 }

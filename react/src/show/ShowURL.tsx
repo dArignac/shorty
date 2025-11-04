@@ -14,8 +14,9 @@ export function ShowURL({ id }: ShowURLProps) {
   const [isFunctionsError, setIsFunctionsError] = useState<boolean>(false);
   const [url, setURL] = useState<string | null>(null);
 
-  const [qrCodeGenerationSuccess, setQRCodeGenerationSuccess] =
-    useState<boolean | null>(null);
+  const [qrCodeGenerationSuccess, setQRCodeGenerationSuccess] = useState<
+    boolean | null
+  >(null);
   const [qrCode, setQRCode] = useState<string>("");
 
   useEffect(() => {
@@ -68,7 +69,7 @@ export function ShowURL({ id }: ShowURLProps) {
 
   return (
     <div className="row">
-      <div className="col-12 p-1">
+      <div className="md:col-12 p-1">
         <p>
           <strong>URL:</strong> <a href={url!}>{url}</a>
         </p>
@@ -76,7 +77,7 @@ export function ShowURL({ id }: ShowURLProps) {
           <strong>Short-URL:</strong> <a href={shortURL}>{shortURL}</a>
         </p>
       </div>
-      <div className="col-12 p-1">{qrCodeHTML}</div>
+      <div className="md:col-12 p-1">{qrCodeHTML}</div>
     </div>
   );
 }
